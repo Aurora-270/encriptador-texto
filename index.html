@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">  
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap">
+    <title>Encriptador :3</title>
+</head>
+<body>
+    <header>
+        <div class="contenedor_header">
+            <div class="header"> 
+                    <img class="logo" src="img/Logo.png">
+            </div>  
+        </div>
+    </header>
+    <main>
+        <article class="container">
+            <section class="seccion_1" id="seccion_1">
+                <textarea class="input_textarea" id="texto_Input" placeholder="Ingrese el texto aquí" autofocus></textarea>
+                <div class="contenedor_botones">
+                    <span class="info">
+                        <img src="img/alerta.svg" alt="advertencia" />
+                        WARNING: Solo escribe letras minúsculas y sin acentos !!!
+                    </span>
+                    <div class="botones">
+                        <button id="button_encriptar" class="button_encriptar">Encriptar</button>
+                        <button id="button_desencriptar" class="button_desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </section>
+            <section class="seccion_2" id="seccion_2">
+                <img id="munieco" class="munieco" src="img/Muñeco.png" alt="Ningún mensaje fue encontrado. Ingresa el texto que desees encriptar o desencriptar.">
+                <textarea id="texto_Final" class="texto_Final" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <p id="texto_Info" class="info">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button class="button_copiar bn_ocultar" id="button_copiar">Copiar</button>
+            </section>
+        </article>
+    </main>
+    <footer class="footer ">
+        <p class="creador">Created by: 
+            <a href="https://github.com/Aurora-270/" target="_blank" class="usuario">
+                @Aurora-270
+            </a>
+        </p>
+        <div>
+            <a href="https://github.com/Aurora-270" target="_blank">
+                <img class="links" src="img/github.svg" />
+            </a>
+            
+            <a href="https://www.linkedin.com/in/aurora-alvarez-a93185289/" target="_blank">
+                <img class="links" src="img/linkedin.svg" />
+            </a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
